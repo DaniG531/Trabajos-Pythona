@@ -25,6 +25,3 @@ for i in range(360):
         indexGen += 1 
 
 TK.mainloop()
-
-
-skk.goto(-400,-400)

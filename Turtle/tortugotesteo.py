@@ -55,15 +55,5 @@ for i in range(13):
     skk.forward(100)
     skk.left(30)
 
-skk.goto(-25,-55)
-skk.pencolor("red")
-skk.width(10)
-skk.circle(50)
-tamaño= 15
-skk.right(104)
-while tamaño != 0:
-    skk.width(tamaño)
-    skk.forward(2)
-    tamaño -= 0.5
 
 TK.mainloop()

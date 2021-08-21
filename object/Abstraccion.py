@@ -54,5 +54,3 @@ class Objeto12(MueblesMadera):
     name = "Cuadro"
     material = "madera, tela y cristal"
     AlmacenajeInterno = False
-
-

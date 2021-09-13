@@ -29,4 +29,3 @@ print(f"Cantidad de Vacunados: {CantVacun}")
 print("")
 print(f"Porcentaje de Vacunados: {CantVacun/len(Formulario)*100}")
 
-#UwU

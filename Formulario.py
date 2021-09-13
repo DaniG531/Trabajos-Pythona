@@ -22,10 +22,10 @@ def VacunadosFuncion():
         if ciclo['Vacunado']:
             CantidadVacunados += 1
     return CantidadVacunados
-CantVacun = VacunadosFuncion
+CantVacun = VacunadosFuncion()
 
 print(f"Cantidad de Personas: {len(Formulario)}")
 print(f"Cantidad de Vacunados: {CantVacun}")
 print("")
-print(f"Porcentaje de Vacunados: {CantVacun/len(Formulario)*100}")
-
+print(f"Porcentaje de Vacunados: {CantVacun/len(Formulario)*100}%")
+print("")
